@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline-offset: 0.25rem;
+}
+
+body {
+  background-color: rgb(247, 247, 246);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 100%;
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4 {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 820px) {
+  main {
+    flex-direction: column;
+  }
+}
