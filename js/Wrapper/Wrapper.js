@@ -107,7 +107,7 @@ class WrapperProduct extends HTMLElement {
 
   createImageProduct() {
     const image = document.createElement("img");
-    image.src = "../../assets/image/product.png";
+    image.src = "assets/image/product.png";
     image.alt = "Neutrogena Hydro Boost Water Gel Product";
 
     image.classList.add("c-image");
